@@ -335,9 +335,9 @@ UIA landing animation
   display: inline-flex;
   object-fit: contain;
   border-color: black;
-  width: 125px;
+  /* width: 125px; */
   width: clamp(4.7rem, 10vw, 10rem);
-  margin-bottom:-3vw;
+  margin-bottom: clamp(-3rem, -3vw, -1.2rem);
   margin-left: -2vw;
   height: auto;
 }
@@ -392,11 +392,12 @@ Content styling for all pages
 
 .grid-wrapper {
     position: relative;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     z-index: 1;
     margin-left: -50px;
     margin-right: -150px;
+    padding-right: 100px;
 }
 
 .tile {
