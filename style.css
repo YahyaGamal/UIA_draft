@@ -656,6 +656,10 @@ Home page CSS
   margin: 10px;
 }
 
+.tile.contact a:hover {
+  color: rgba(190, 190, 190, 1);
+}
+
 .tile.contact::before {
   content: "";
   position: absolute;
@@ -858,10 +862,13 @@ Projects page
   opacity: 0;
   transition: opacity 0.25s ease-in-out;
   pointer-events: none;
+  /* -webkit-user-drag: none; */
 }
 
 .tile.projects:hover::before {
   opacity: 1;
+  -webkit-user-drag: none;
+
 }
 
 .tile.projects h2, h3, a {
