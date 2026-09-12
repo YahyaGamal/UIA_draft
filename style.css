@@ -120,7 +120,7 @@ Navigation bar CSS
   display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .burger {
     display:block;
     width: 25px;
@@ -204,7 +204,8 @@ Navigation bar CSS
     justify-content: flex-start;
     padding-left: 20px;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;;
   }
 
   #navbar.nav-open a {
@@ -212,12 +213,15 @@ Navigation bar CSS
     justify-content: flex-start;
     padding-left: 20px;
     opacity: 1;
+    visibility: visible;
   }
 
   .navbutton {
     width: 100%;
     padding-left: 0;
     margin-top: 50px;
+    /* z-index: 0; */
+    visibility: hidden;
   }
 
   .navbutton.navbut-open {
@@ -231,6 +235,7 @@ Navigation bar CSS
     width: 100%;
     text-align: left;
     justify-content: flex-start;
+    /* visibility: hidden; */
   }
 
   .navbutton-text.navtext-open {
@@ -238,6 +243,7 @@ Navigation bar CSS
     text-align: left;
     justify-content: flex-start;
     opacity: 1;
+    /* visibility: visible; */
   }
 
   body.no-scroll {
