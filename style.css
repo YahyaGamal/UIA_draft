@@ -326,6 +326,7 @@ UIA landing animation
   /* display: flex; */
   /* align-items: center; */
   margin: 0;
+  margin-bottom: -1.5vw;
   font-size: clamp(4.7rem, 8vw, 8rem);
   font-weight: 500;
   letter-spacing: -0.06em;
@@ -636,6 +637,10 @@ Home page CSS
   max-width: 1100px; */
   text-align: left;
   /* margin-bottom: 0; */
+}
+
+#contact-section a:hover .webpage {
+  color: rgba(150, 150, 150);
 }
 
 .tile.contact {
