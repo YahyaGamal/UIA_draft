@@ -123,8 +123,6 @@ Navigation bar CSS
 @media (max-width: 500px) {
   a {
     -webkit-tap-highlight-color: transparent;
-    /* -webkit-touch-callout: none;
-    user-select: none; */
   }
 
   .burger {
@@ -143,11 +141,6 @@ Navigation bar CSS
     z-index: 10;
 
     -webkit-tap-highlight-color: transparent;
-    /* -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
-    outline: none;
-    background: black; */
   }
 
   .line {
