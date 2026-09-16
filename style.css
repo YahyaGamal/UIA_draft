@@ -122,7 +122,9 @@ Navigation bar CSS
 
 @media (max-width: 500px) {
   a {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
   }
 
   .burger {
