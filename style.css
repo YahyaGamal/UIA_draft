@@ -143,11 +143,11 @@ Navigation bar CSS
     z-index: 10;
 
     -webkit-tap-highlight-color: transparent;
-    /* -webkit-touch-callout: none;
+    -webkit-touch-callout: none;
     -webkit-user-select: none;
     user-select: none;
     outline: none;
-    background: black; */
+    background: black;
   }
 
   .line {
